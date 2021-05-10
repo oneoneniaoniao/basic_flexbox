@@ -1,0 +1,25 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .main-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .main-box {
+    width: initial;
+    flex: 1;
+  }
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  .header-wrapper {
+    height: 100px;
+    align-items: flex-start;
+  }
+
+  .left-wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
